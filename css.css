@@ -1,0 +1,29 @@
+body {
+    background: fixed;
+    font-family: 'ubuntu' , 'sans-sarif';
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+.bg {
+    background: url(ram.jpg);
+    top: -30px;
+    bottom: -30px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 10%;
+    z-index: -1;
+    position: absolute;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+}
